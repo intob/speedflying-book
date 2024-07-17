@@ -1,0 +1,15 @@
+Speedflying Book - Developer Guide
+1. Why no Hugo?
+I normally build such static websites with Hugo, but I felt that this pure HTML approach reduces the barrier to entry for contributors who want to make significant changes. While writing in markdown is much easier, installing the build dependencies, let alone learning about Hugo is too demanding for those without prior software developement experience. In addition, it's nice to have a simple and performant product without any external dependencies.
+
+2. Contributing
+I welcome changes and other contributions, such as illustrations. I plan to create good illustrations when I have time. If you're not sure how to make a pull request, I suggest that you create an issue, so that someone else can implement the changes for you, if the community agrees.
+
+3. Run a local HTTP server
+As this project is simply a set of HTML documents with no dependencies, you only need to run a HTTP server, serving this directory. For convenience, I've included a Go HTTP server.
+- Install Go, checking successful install by running in your terminal: go version
+- In this directory, execute in your terminal: go run .
+This will start a local HTTP server, accessible at http://localhost:8080
+
+4. Or simply open the HTML documents in your browser
+Alternatively, if you don't want to run a HTTP server, your browser can open the HTML documents. In this way, you can also preview your changes.
