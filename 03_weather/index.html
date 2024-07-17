@@ -83,13 +83,32 @@
       <h4>Nimbostratus</h4>
       <p>Dark gray, wet looking, formless layer of clouds that often bring continuous rain or snow. Indicates stable air and poor visibility.</p>
       <h4>Cumulus</h4>
-      <p>Detached, puffy white or light gray clouds with flat bases. Fair weather cumulus indicate thermic activity, and therefore unstable air. Turbulence should be expected, especially in the afternoon. Cumulus clouds can grow vertically into towering cumulus which may develop into cumulonimbus.</p>
+      <p>Detached, puffy white or light gray clouds with flat bases. Fair weather cumulus indicate thermic activity, and therefore unstable air. Turbulence should be expected, especially in the afternoon. Cumulus clouds can grow vertically into towering cumulus which may develop into cumulonimbus. Additionally, a cumulus cloud's position relative to the trigger is a very good indicator for wind speed and direction at altitudes between the trigger and the cloud base.</p>
       <h4>Cumulonimbus</h4>
       <p>Heavy, dense, towering vertical clouds with dark bottoms. Associated with thunderstorms, severe turbulence, lightning, hail, and icing. Very dangerous for aviation and should be avoided.</p>
 
-      <h2>Models</h2>
+      <h2>Weather Models</h2>
+      <p>Weather models are software applications that use mathematical equations to simulate the behavior and evolution of the atmosphere. They take in current weather observations from satellites, weather balloons, surface stations, and other sources as inputs. The models then solve the equations to predict how the weather will change over time, producing forecasts of temperature, precipitation, wind, and other variables. Execution of these programs is often distributed across clusters of machines. Below are details of two widely-used weather models.</p>
       <h3>ECMWF</h3>
-      <p>ECMWF is a fairly reliable global model, with a 7 day</p>
+      <p>The European Centre for Medium-Range Weather Forecasts (ECMWF) produces a global weather model considered one of the most accurate in the world. Key facts about the ECMWF model:</p>
+      <ul>
+        <li>Horizontal resolution of about 9 km globally</li>
+        <li>137 vertical levels up to 80 km altitude</li>
+        <li>Produces forecasts out to 10 days, updated twice daily</li>
+        <li>Ensemble system produces 51 separate forecasts to quantify uncertainty</li>
+        <li>Also used to generate monthly and seasonal forecasts</li>
+      </ul>
+      <h3>ICON-EU</h3>
+      <p>ICON (ICOsahedral Nonhydrostatic) is a newer global model developed by the German weather service (DWD). The ICON-EU is a high-resolution regional nest within the global ICON model focused on Europe. Key facts about ICON-EU:</p>
+      <ul>
+        <li>Horizontal resolution of 6.5 km over Europe</li>
+        <li>60 vertical levels up to 22.5 km altitude</li>
+        <li>Forecasts out to 5 days, updated 8 times per day</li>
+        <li>Two-way interaction with the global ICON model for better consistency</li>
+        <li>Detailed depiction of local weather influenced by Europe's mountains and seas</li>
+      </ul>
+
+      
     </article>
   </div>
 </body>
