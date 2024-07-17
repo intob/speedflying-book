@@ -45,3 +45,11 @@
   }
 
   a:hover { border-color: var(--lighten-3) }
+
+  figure {
+    margin: 0;
+  }
+
+  figure img {
+    max-width: 100%;
+  }

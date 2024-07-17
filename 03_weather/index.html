@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow"/>
+  <link rel="icon" href="../../img/300_round.webp">
+  <title>Weather</title>
+  <meta name="description" content="An explanation of weather conditions, models, forecasts, fluid dynamics, and observable signs of weather patterns."/>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <picture>
+    <source type="image/avif" sizes="100vw" srcset="
+    ../img/poster/400.avif 400w,
+    ../img/poster/800.avif 800w,
+    ../img/poster/1600.avif 1600w,
+    ../img/poster/2400.avif 2400w,
+    ../img/poster/2912.avif 2912w,
+    ../img/poster/3840.avif 3840w">
+    <img src="../img/poster/400.avif" width="3840" height="2160" sizes="100vw" style="width:100vw;height:auto" alt="poster">
+  </picture>
+  <div id="container">
+    <article>
+      <h1>Weather</h1>
+
+      <h2>Atmospheric Pressure</h2>
+      <p>Atmospheric pressure, also known as barometric pressure, is the force exerted by the weight of air molecules pressing down on the Earth's surface. The air around us has weight, and it presses against everything it touches. That pressure is called air pressure.</p>
+      <ul>
+        <li>Air pressure is highest at sea level, where the density of air molecules is greatest. It decreases with increasing altitude.</li>
+        <li>The standard air pressure at sea level is defined as 1013.25 millibars (mb), 29.92 inches of mercury, or 14.7 pounds per square inch (psi).</li>
+        <li>Air pressure is measured using an instrument called a barometer, hence why it's also referred to as barometric pressure.</li>
+      </ul>
+      <h3>Factors Affecting Atmospheric Pressure</h3>
+      <ul>
+        <li><strong>Altitude:</strong> Air pressure decreases with increasing altitude, since there are fewer air molecules pressing down from above the higher you go. Air pressure drops about 3.5 mb for every 30 meters (100 feet) increase in elevation.</li>
+        <li><strong>Temperature:</strong> Warm air is less dense than cold air. As air warms, the molecules move further apart, lowering the air density and decreasing the air pressure. Conversely, cooling air causes molecules to pack together more closely, increasing air density and pressure.</li>
+        <li><strong>Humidity:</strong> Moist air is less dense than dry air. Water vapor molecules (H2O) are lighter than nitrogen (N2) and oxygen (O2) molecules that make up most of the dry air. Therefore, humid air will have a lower pressure than dry air.</li>
+      </ul>
+      <h3>The Effects of Atmospheric Pressure on Weather</h3>
+      <p>Air pressure is a fundamental factor shaping our weather patterns. Meteorologists analyze air pressure and pressure changes to forecast the weather. Understanding high and low pressure systems is key to predicting wind, temperature, clouds, and precipitation. In general:</p>
+      <ul>
+        <li><strong>Low pressure systems</strong> tend to result in unsettled weather conditions like cloudiness, wind, and precipitation. Rising air motion in lows cools, condenses moisture, and forms clouds and precipitation.</li>
+        <li><strong>High pressure systems</strong> are usually associated with settled, calm, and fair weather conditions. Sinking air motion in highs warms, evaporates moisture, and creates clear skies.</li>
+      </ul>
+      <p>The movement of air from high to low pressure areas creates wind. The greater the pressure difference between the pressure systems, the stronger the wind. Pressure differences are the driving force of weather.</p>
+      <p>Many types of severe weather like hurricanes, tornadoes, and severe thunderstorms form in low pressure zones. Daily and seasonal temperature ranges tend to be more extreme under high pressure than low pressure, since clear skies allow more solar heating by day and cooling at night. Rapidly falling air pressure usually indicates an approaching storm, while rising pressure indicates clearing and calmer weather.</p>
+      <h3>Foehn</h3>
+      <p>In the mountains, pressure differences between two sides of a massif result in wind rushing over the terrain. The resulting wind is known as foehn. Before mountain flights, pilots should check for these winds, by reading foehn charts.</p>
+      <figure>
+        <img src="./foehn_chart.avif" alt="example foehn chart"/>
+        <figcaption>An example of the foehn chart between Lugano and Zurich.</figcaption>
+      </figure>
+
+      <h2>Clouds</h2>
+      <p>We can observe clouds to anticipate weather changes and flying conditions.</p>
+      <p>In short:</p>
+      <ul>
+        <li>Cirrus-type clouds indicate fair but changing weather.</li>
+        <li>Stratus-type clouds generally mean stable air.</li>
+        <li>Cumulus clouds indicate thermic activity, meaning instability and turbulence.</li>
+        <li>Nimbostratus brings prolonged precipitation.</li>
+        <li>Cumulonimbus are the most dangerous due to severe weather hazards.</li>
+      </ul>
+      <h3>High-Level Clouds (16,500 - 45,000 ft)</h3>
+      High-level clouds can signal changing weather ahead.
+      <h4>Cirrus</h4>
+      <p>Thin, wispy clouds composed of ice crystals. Cirrus clouds on their own indicate fair weather. However, increasing cirrus can be an early sign of an approaching frontal system or storm in the next 24-36 hours.</p>
+      <h4>Cirrostratus</h4>
+      <p>Thin, veil-like clouds that often cover the entire sky and cause a halo around the sun or moon. May indicate an approaching warm front and rain within 12-24 hours.</p>
+      <h4>Cirrocumulus</h4>
+      <p>Small, white patches or scales. Cirrocumulus mixed with cirrus often precedes a warm front and rain within 24 hours.</p>
+      <h3>Mid-Level Clouds (6,500 - 23,000 ft)</h3>
+      <h4>Altostratus</h4>
+      <p>Gray or blue-gray clouds that often cover the entire sky. The sun may be dimly visible as a round disk. Altostratus indicates an approaching warm or occluded front with continuous precipitation, usually beginning in 6-12 hours.</p>
+      <h4>Altocumulus</h4>
+      <p>Gray puffy masses in rows or patches. May indicate an approaching cold front or thunderstorm.</p>
+      <h3>Low-Level Clouds (surface - 6,500 ft)</h3>
+      <h4>Stratus</h4>
+      <p>Low, gray, uniform clouds that often cover the entire sky. May produce drizzle or light snow. Indicates stable air.</p>
+      <h4>Stratocumulus</h4>
+      <p>Low, puffy, grayish or whitish clouds in patches or layers with some blue sky visible. Indicates slightly unstable air. Light turbulence possible.</p>
+      <h4>Nimbostratus</h4>
+      <p>Dark gray, wet looking, formless layer of clouds that often bring continuous rain or snow. Indicates stable air and poor visibility.</p>
+      <h4>Cumulus</h4>
+      <p>Detached, puffy white or light gray clouds with flat bases. Fair weather cumulus indicate thermic activity, and therefore unstable air. Turbulence should be expected, especially in the afternoon. Cumulus clouds can grow vertically into towering cumulus which may develop into cumulonimbus.</p>
+      <h4>Cumulonimbus</h4>
+      <p>Heavy, dense, towering vertical clouds with dark bottoms. Associated with thunderstorms, severe turbulence, lightning, hail, and icing. Very dangerous for aviation and should be avoided.</p>
+    </article>
+  </div>
+</body>
+</html>
