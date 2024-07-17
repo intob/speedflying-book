@@ -1,0 +1,47 @@
+:root {
+    --dark-1: hsl(154, 100%, 1%);
+    --dark-2: hsl(194, 100%, 3%);
+    --lighten-1: #ffffff05;
+    --lighten-2: #ffffff20;
+    --lighten-3: #ffffff88;
+    --lighten-4: #fffffff0;
+    --gold: #EDAE49;
+    --blue: #084B83;
+    --red: #DB2B39;
+    --green: #4DAA57;
+  }
+
+  html {
+    background: linear-gradient(-0.0625turn, var(--dark-1), var(--dark-2));
+    color: #f0f0f0f0;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+
+  html, body {
+    padding: 0;
+    margin: 0;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  article {
+    max-width: 600px;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--lighten-2);
+    transition: border-color 127ms;
+    padding: 0 5px;
+    word-break: break-all;
+    color: var(--gold);
+  }
+
+  a:hover { border-color: var(--lighten-3) }
