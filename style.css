@@ -23,6 +23,10 @@
     margin: 0;
   }
 
+  picture, img {
+    max-width: 100%;
+  }
+
   #container {
     display: flex;
     flex-direction: column;
@@ -49,8 +53,4 @@
 
   figure {
     margin: 0;
-  }
-
-  figure img {
-    max-width: 100%;
   }
