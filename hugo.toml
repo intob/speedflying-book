@@ -32,15 +32,16 @@ paginate = 12
     weight = 1
   [[menu.main]]
     name = "Locations"
+    weight = 2
   [[menu.main]]
     name = "Mistakes"
     url = "/mistakes"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Book source"
     url = "https://github.com/intob/speedflying-book"
-    weight = 5
+    weight = 4
   [[menu.main]]
     name = "Speedflying Mentorship"
     url = "https://learntospeedfly.com"
-    weight = 6
+    weight = 5
