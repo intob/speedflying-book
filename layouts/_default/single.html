@@ -22,6 +22,10 @@
       </header>
       <section>{{ .Content }}</section>
     </article>
+    <div>
+      {{ if .PrevInSection }}<a href="{{ .PrevInSection.Permalink }}">Prev</a>{{ end }}
+      {{ if .NextInSection }}<a href="{{ .NextInSection.Permalink }}">Next</a>{{ end }}
+    </div>
   </main>
 </body>
 </html>
