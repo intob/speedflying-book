@@ -1,0 +1,10 @@
+{{ $context := . }}
+<picture class="hero">
+  <source type="image/avif" srcset="{{ $sizes := dict "800" "" "1600" "" "2400" "" "2912" "" "3840" "" }}
+          {{ range $key, $value := $sizes }}
+            {{ $context.Params.img }}{{ $key }}.avif {{ $key }}w{{ if not (eq $key "3840") }},{{ end }}
+          {{ end }}" 
+          sizes="100vw">
+  <img src="{{ .Params.img }}400.avif" width="3840" height="2160" sizes="100vw" alt="somewhat useless illustration {{ .Params.img }}">
+  <caption>{{ .Params.caption }}</caption>
+</picture>

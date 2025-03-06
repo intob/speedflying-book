@@ -11,13 +11,13 @@ type middleware struct {
 }
 
 func (m middleware) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Cache-Control", "max-age=86400") // 1d
+	w.Header().Set("Cache-Control", "max-age=1") // 1d
 	m.handler.ServeHTTP(w, r)
 }
 
 func main() {
 	flag.Parse()
-	fs := http.FileServer(http.Dir("."))
+	fs := http.FileServer(http.Dir("./public"))
 	m := middleware{handler: fs}
 	http.Handle("/", m)
 	log.Print("starting server on http://localhost:8080\n")

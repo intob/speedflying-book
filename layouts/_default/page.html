@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  {{ if .Params.img }}
+    {{ $imgUrl := .Params.img | absURL }}
+    <meta name="og:image" content="{{ $imgUrl }}" />
+    {{ end }}
+  <meta name="description" content="{{ .Description }}" />
+  <meta name="og:title" content="{{ .Title }}" />
+  <meta name="og:description" content="{{ .Description }}" />
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>{{ partial "header.html" . }}</header>
+  <main>
+    <article>
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+      <section>{{ .Content }}</section>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>{{ .Site.Title }}</title>
+        <meta name="description" content="{{ .Site.Params.description }}" />
+        <meta name="og:title" content="{{ .Site.Title }}" />
+        <meta name="og:description" content="{{ .Site.Params.description }}" />
+        <meta
+            name="og:image"
+            content="https://innesarts.uk/img/life/torrent-creusaz/3840.avif"
+        />
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+        <header>{{ partial "header.html" . }}</header>
+        <main>
+            <picture class="hero">
+                <source
+                    type="image/avif"
+                    srcset="
+                        /img/life/torrent-creusaz/800.avif   800w,
+                        /img/life/torrent-creusaz/1600.avif 1600w,
+                        /img/life/torrent-creusaz/2400.avif 2400w,
+                        /img/life/torrent-creusaz/2912.avif 2912w,
+                        /img/life/torrent-creusaz/3840.avif 3840w
+                    "
+                    sizes="100vw"
+                />
+                <img
+                    src="/img/life/torrent-creusaz/400.avif"
+                    width="3840"
+                    height="2160"
+                    alt="somewhat useless illustration"
+                />
+            </picture>
+            <section>
+                <p>I'm fascinated by nature's self-similarity. I see an elegant beauty and power in self-reference. I'm a software engineer.
+            </section>
+            <section>
+                <h2>Latest 10</h2>
+                <ul class="teaser-list">
+                {{ range first 10 .Site.RegularPages.ByDate.Reverse }}
+                    <li><a href="{{ .RelPermalink }}">{{ partial "teaser.html" . }}</a></li>
+                {{ end }}
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>

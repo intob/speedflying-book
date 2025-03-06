@@ -1,0 +1,46 @@
+baseURL = "https://book.learntospeedfly.com"
+languageCode = "en-us"
+title = "A Guide to Speedflying Safely"
+pluralizelisttitles = false
+paginate = 12
+
+[security]
+  [security.funcs]
+    getenv = [
+      "^HUGO_",
+      "^CI$",
+      "COMMIT_HASH",
+      "CF_PAGES_COMMIT_SHA"
+    ]
+
+[params]
+  author = "Joey Innes"
+  description = "A brief and opinionated handbook for speedflying."
+
+  [params.categories]
+    theory = "Theory"
+    location = "Locations"
+    mistakes = "Mistakes"
+
+[permalinks]
+  categories = "/:slug/"
+
+[menu]
+ [[menu.main]]
+    name = "Theory"
+    url = "/theory"
+    weight = 1
+  [[menu.main]]
+    name = "Locations"
+  [[menu.main]]
+    name = "Mistakes"
+    url = "/mistakes"
+    weight = 2
+  [[menu.main]]
+    name = "Book source"
+    url = "https://github.com/intob/speedflying-book"
+    weight = 5
+  [[menu.main]]
+    name = "Speedflying Mentorship"
+    url = "https://learntospeedfly.com"
+    weight = 6

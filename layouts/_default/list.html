@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ $title := index $.Site.Params.categories .Title | default .Title }}
+<head>
+  <title>{{ $title }} - {{ .Site.Title }}</title>
+  <style>
+    h2 {
+      margin: 0;
+    }
+  </style>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>{{ partial "header.html" . }}</header>
+  <main>
+    <article>
+      <header>
+        <h1>{{ $title }}</h1>
+      </header>
+      <section>
+        <ul class="teaser-list">
+          {{ range .Paginator.Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">
+              {{ partial "teaser.html" . }}
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ template "_internal/pagination.html" . }}
+      </section>
+    </article>
+  </main>
+</body>
+</html>

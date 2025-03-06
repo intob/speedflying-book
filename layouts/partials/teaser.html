@@ -1,0 +1,10 @@
+<div class="teaser">
+  {{ if .Params.img }}
+  <img src="{{ .Params.img }}400.avif" alt="teaser image"/>
+  {{ end }}
+  <section>
+    <h3>{{ .Title }}</h3>
+    <span class="meta">{{ .Date.Format "2006-01-02" }}</span>
+    <p>{{ .Description }}</p>
+  </section>
+</div>
