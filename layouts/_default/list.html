@@ -19,7 +19,7 @@
       </header>
       <section>
         <ul class="teaser-list">
-          {{ range .Paginator.Pages }}
+          {{ range (.Paginate .Pages 20).Pages }}
           <li>
             <a href="{{ .RelPermalink }}">
               {{ partial "teaser.html" . }}
