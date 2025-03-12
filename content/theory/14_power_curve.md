@@ -1,6 +1,7 @@
 ---
 title: 14 The "Power Curve"
 description: An explanation of what I call the power curve.
+date: 2025-03-12
 ---
 When driving a car, the transition from a left turn into a right turn involves smoothly shifting the weight to the outside wheels. This is achieved by progressively increasing the steering angle.
 

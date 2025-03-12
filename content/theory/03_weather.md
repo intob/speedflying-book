@@ -1,6 +1,7 @@
 ---
 title: 03 Weather
 description: An explanation of weather conditions, models, forecasts, fluid dynamics, and observable signs of weather patterns.
+date: 2025-03-12
 ---
 ## Atmospheric Pressure
 Atmospheric pressure, also known as barometric pressure, is the force exerted by the weight of air molecules pressing down on the Earth's surface. The air around us has weight, and it presses against everything it touches. That pressure is called air pressure.

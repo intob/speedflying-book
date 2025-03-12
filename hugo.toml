@@ -16,6 +16,7 @@ paginate = 12
 [params]
   author = "Joey Innes"
   description = "A brief and opinionated handbook for speedflying."
+  mapURL = "https://earth.google.com/earth/d/1qxVmRScWvJtddlvVKnYXGvK1wv4SOylI" 
 
   [params.categories]
     theory = "Theory"
@@ -32,7 +33,7 @@ paginate = 12
     weight = 1
   [[menu.main]]
     name = "Locations"
-    url = "/locations"
+    url = "/location"
     weight = 2
   [[menu.main]]
     name = "Mistakes"

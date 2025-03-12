@@ -1,6 +1,7 @@
 ---
 title: 10 Landing
 description: Safe landing practices, and some tips for swooping safely.
+date: 2025-03-12
 ---
 Landing a speedwing is very similar to landing a paraglider, and best practices remain mostly the same:
 - Assess wind direction

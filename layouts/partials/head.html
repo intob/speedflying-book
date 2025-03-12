@@ -10,3 +10,5 @@
 <link rel="canonical" content="{{ .Permalink }}">
 <link rel="icon" href="/img/self/portrait.webp">
 <link rel="stylesheet" href="/style.css">
+{{ $title := index $.Site.Params.categories .Title | default .Title }}
+<title>{{ $title }} - {{ .Site.Title }}</title>

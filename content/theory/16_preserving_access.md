@@ -1,6 +1,7 @@
 ---
 title: 16 Preserving Access to Flying Sites
 description: A description of my approach to discovering lines, and flying them for the first time.
+date: 2025-03-12
 ---
 With the growth and increase in popularity of speedflying, tension has developed between speedflyers, tandem operations, and local communities.
 

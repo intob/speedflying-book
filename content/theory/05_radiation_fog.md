@@ -1,6 +1,7 @@
 ---
 title: 05 Radiation Fog
 description: An explanation of types of fog, particularly radiation fog.
+date: 2025-03-12
 ---
 Radiation fog is a common type of fog that can significantly impact visibility near terrain.
 

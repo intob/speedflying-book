@@ -1,6 +1,7 @@
 ---
 title: 01 Aerodynamics
 description: A brief overview of airfoil aerodynamics, relevant for speedflying.
+date: 2025-03-12
 ---
 
 A basic understanding of the physics of flight will give you clarity and confidence, allowing you to progress faster. You will also save yourself from experimenting with suboptimal or dangerous practices.

@@ -1,6 +1,7 @@
 ---
 title: 02 Mechanics
 description: An explanation of equipment design, flight mechanics, and a description of the parts of a speedwing and their function.
+date: 2025-03-12
 ---
 
 # Design and Mechanics

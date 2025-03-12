@@ -1,6 +1,7 @@
 ---
 title: 07 Finding Ideal Conditions
 description: An explanation of how predictions of weather and thermic activity can be used to find ideal conditions for speedflying.
+date: 2025-03-12
 ---
 In order to reliably find ideal conditions, we must consider the following factors:
 - General weather

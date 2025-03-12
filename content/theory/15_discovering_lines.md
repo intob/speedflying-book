@@ -1,6 +1,7 @@
 ---
 title: 15 Discovering Lines
 description: An explanation of my approach to discovering lines, and flying them for the first time.
+date: 2025-03-12
 ---
 When searching for lines, I primarily assess the following factors:
 - Landing options

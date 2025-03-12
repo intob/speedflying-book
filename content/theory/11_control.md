@@ -1,6 +1,7 @@
 ---
 title: 11 Control
 description: An explanation of the various methods of control, their advantages, and their caveats.
+date: 2025-03-12
 ---
 Pilots have four methods of control at their disposal: weight-shift, brake input, rear riser input, and bridge input. Weight-shift should **always** be used as the primary method of control. Brakes, rear risers, and bridge are supplementary to weight-shift, and also offer control of angle of attack.
 

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{ .Title }} - {{ .Site.Title }}</title>
   {{ if .Params.img }}
     {{ $imgUrl := .Params.img | absURL }}
     <meta name="og:image" content="{{ $imgUrl }}" />
@@ -18,7 +17,7 @@
     <article>
       <header>
         <h1>{{ .Title }}</h1>
-        <span class="meta">{{ .Date.Format "2006-01-02" }}</span>
+        {{ if .Date }}<span class="meta">{{ .Date.Format "2006-01-02" }}</span>{{ end }}
       </header>
       <section>{{ .Content }}</section>
     </article>

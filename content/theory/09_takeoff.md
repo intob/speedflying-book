@@ -1,6 +1,7 @@
 ---
 title: 09 Takeoff
 description: A description of good takeoff technique and some practices to improve safety.
+date: 2025-03-12
 ---
 Footlaunching a speedwing involves inherent risk, however, we can greatly improve the safety with good technique and by following some best practices. A proper takeoff involves the following stages.
 

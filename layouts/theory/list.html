@@ -6,12 +6,12 @@
     <main>
       <article>
         <header>
-          {{ $title := index $.Site.Params.categories .Title | default .Title }}
-          <h1>{{ $title }}</h1>
+        {{ $title := index $.Site.Params.categories .Title | default .Title }}
+        <h1>{{ $title }}</h1>
         </header>
         <section>
           <ul class="teaser-list">
-            {{ range (.Paginate .Pages 20).Pages }}
+            {{ range (.Paginate .Pages.ByTitle 20).Pages }}
             <li>
               <a href="{{ .RelPermalink }}">
                 {{ partial "teaser.html" . }}

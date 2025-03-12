@@ -1,6 +1,7 @@
 ---
 title: 08 Stall Point
 description: An explanation of the stall point, and why it is important to become familiar with it on the ground.
+date: 2025-03-12
 ---
 Stall point is the point at which your glider reaches stall, where the air flows over the upper and lower surfaces become separated. Your best glide in still air is very close to your stall point, as this is typically where your glider produces maximum lift. If you wish to glide optimally and safely, you should become familiar with your stall point on the ground.
 

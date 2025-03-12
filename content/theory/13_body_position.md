@@ -1,6 +1,7 @@
 ---
 title: 13 Body Position
 description: A description of body positions while flying, and their use cases.
+date: 2025-03-12
 ---
 While flying acro, and during SIV, paragliders adopt an upright body position. Pilots often tuck their heels up to their buttocks, in order to reduce the risk of twisting by decreasing rotational inertia.
 

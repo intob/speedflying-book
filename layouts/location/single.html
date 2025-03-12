@@ -13,12 +13,19 @@
 <body>
   <header>{{ partial "header.html" . }}</header>
   <main>
+    {{ if .Params.img }}{{ partial "hero.html" . }}{{ end }}
     <article>
       <header>
         <h1>{{ .Title }}</h1>
+        {{ if .Date }}<span class="meta">{{ .Date.Format "2006-01-02" }}</span>{{ end }}
+        {{ if .Site.Params.mapURL }}<span class="meta"><a target="_blank" href="{{ .Site.Params.mapURL }}">Joey's Google Earth Project</a></span>{{ end }}
       </header>
       <section>{{ .Content }}</section>
     </article>
+    <div>
+      {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">{{ partial "teaser.html" . }}</a>{{ end }}
+      {{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ partial "teaser.html" . }}</a>{{ end }}
+    </div>
   </main>
 </body>
 </html>

@@ -1,6 +1,7 @@
 ---
 title: 06 Observing Conditions
 description: An explanation of techniques for observing weather conditions.
+date: 2025-03-12
 ---
 Clouds offer many reliable indicators for the current weather conditions, and also some signs to help us predict the weather.
 

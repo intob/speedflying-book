@@ -1,6 +1,7 @@
 ---
 title: 04 Thermals
 description: An explanation of the causes and effects of thermic activity, and ramifications for pilots.
+date: 2025-03-12
 ---
 XC paragliders seek thermals, while the majority of speedflyers avoid them like the plague. If the majority of speedflyers had a paragliding background, this would not be the case.
 

@@ -1,6 +1,7 @@
 ---
 title: 12 Active Piloting
 description: A brief explanation of active piloting.
+date: 2025-03-12
 ---
 While brief, this topic deserves a dedicated section as it is the basis for safe piloting in all types of variable air.
 
