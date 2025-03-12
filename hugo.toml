@@ -36,10 +36,6 @@ paginate = 12
     url = "/location"
     weight = 2
   [[menu.main]]
-    name = "Mistakes"
-    url = "/mistakes"
-    weight = 3
-  [[menu.main]]
     name = "Discord"
     url = "https://discord.gg/ESaHQ5GFtD"
     weight = 4  
